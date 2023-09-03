@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ポートフォリオ</title>
+    <meta name="description" content="応用編ポートフォリオ" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" /> -->
+    <!-- <link rel="stylesheet" href="css/swiper.min.css" /> -->
+    <!-- バージョン９以上だと上手な挙動ができないようです。バージョン８に下げると、大体の問題が解決します。 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <!-- drawer.css -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css" /> -->
+    <!-- <link rel="stylesheet" href="css/animate.css" /> -->
+    <!-- <link rel="stylesheet" href="https://use.typekit.net/cru0dpo.css"> -->
+    <!-- adobe font のリンク↑ htmlにリンクを貼るか もしくは、scss に @import url() 貼るか！ -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="nav__inner inner">
+        <div class="nav-icon">
+          <a href="#"><img src="/img/logo_header.svg" alt="" /></a>
+        </div>
+        <div class="nav__container">
+          <ul>
+            <li class="nav__list"><a href="#about">About</a></li>
+            <li class="nav__list"><a href="#menu">Menu</a></li>
+            <li class="nav__list"><a href="#shop">Shop</a></li>
+            <li class="nav__list"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- header -->
+    <main>
+      <div class="mainvisual">
+        <div class="mainvisual__head mainvisual__inner">
+          <div class="mainvisual__head-image">
+            <picture>
+              <source media="(max-width: 768px)" srcset="/img/img_mv-sp-cmp.png" />
+              <source media="(min-width: 768px)" srcset="/img/img_mv__cmp.jpg" />
+              <img src="/img/img_mv__cmp.jpg" alt="" />
+            </picture>
+            <div class="mainvisual__head-text">
+              <h2 class="mainvisual__head-text-main">
+                Let's eat<br />delicious<br />
+                <span>salad</span>.
+              </h2>
+              <div class="mainvisual__head-text-lead">
+                <p>健康のためじゃない、</p>
+                <p>「おいしいから食べたい」サラダ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- .mainvisual__head -->
+        <div class="mainvisual__body">
+          <div class="mainvisual__body-text">
+            <div class="mainvisual__body-text-main">
+              <h2>毎日食べるからこそ、<br class="sp__only" />おいしいものを。</h2>
+            </div>
+            <div class="mainvisual__body-text-lead">
+              <p class="bottom__space">ヘルシーで栄養豊富なサラダは、健康のために <br class="pc__only" />毎日食べようと思っている人は多いはず。</p>
+              <p class="bottom__space">毎日食べるからこそ品質の良い、飽きのこない、 <br class="pc__only" />おいしいものを楽しんでいただきたい。</p>
+              <p>そんな想いからできた「おいしいから食べたい」サラダを<br class="pc__only" />あなたにお届けいたします。</p>
+            </div>
+          </div>
+          <div class="mainvisual__body-bg">Garden Salad</div>
+        </div>
+        <!-- .mainvisual__body -->
+      </div>
+      <!-- .mainvisual -->
+
+      <!-- about -->
+      <section id="about" class="about inner__sp">
+        <div class="section__title">
+          <div class="section__title-head">Garden Saladのこだわり</div>
+          <div class="section__title-body">About</div>
+        </div>
+        <div class="about__container">
+          <div class="about__items">
+            <div class="about__item">
+              <div class="about__item-text">
+                <div class="about__item-text-box">
+                  <div class="about__item-text-head">全ての食材が安心の<span>国産</span></div>
+                  <div class="about__item-text-body">TF Garden Saladaの食材は全て産地を公表をしています。信頼できる農家さんから直接買い取り、その日採れたものをその日のうちに厨房へ。</div>
+                  <div class="about__item-text-footer">01</div>
+                </div>
+              </div>
+              <div class="about__item-image">
+                <img src="/img/img：農家の野菜__cmp.jpg" alt="" />
+              </div>
+            </div>
+            <div class="about__item">
+              <div class="about__item-text">
+                <div class="about__item-text-box">
+                  <div class="about__item-text-head">カスタム可能で <br class="pc__only" />その組み合わせは<span>全400種類</span>！</div>
+                  <div class="about__item-text-body">定番のメニューに加えてサラダのフルカスタムも可能。お好みのベース×トッピング×ドレッシングを選んであなた好みにアレンジして。</div>
+                  <div class="about__item-text-footer">02</div>
+                </div>
+              </div>
+              <div class="about__item-image">
+                <img src="/img/img：トッピング__cmp.jpg" alt="" />
+              </div>
+            </div>
+            <div class="about__item">
+              <div class="about__item-text">
+                <div class="about__item-text-box">
+                  <div class="about__item-text-head"><span>ジムトレーナー監修</span>の<br class="sp__only" />メニュー</div>
+                  <div class="about__item-text-body">コンビニのサラダチキンに飽きたらこれ！一食でタンパク質20gがとれるトレーニング向けのメニューもご用意してます。</div>
+                  <div class="about__item-text-footer">03</div>
+                </div>
+              </div>
+              <div class="about__item-image">
+                <img src="/img/img：タンパク質メインのサラダ__cmp.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="parallax__1"></div>
+      <!-- parallax__1 -->
+      <section id="menu" class="menu inner__sp">
+        <div class="menu__wrapper">
+          <div class="section__title">
+            <div class="section__title-head">メニュー</div>
+            <div class="section__title-body">Menu</div>
+            <div class="section__title-footer">P : タンパク質　F : 脂質　C : 糖質</div>
+          </div>
+          <div class="menu__container">
+            <div class="menu__cards">
+              <!-- menu__card-head -->
+              <div class="menu__card-head">
+                <div class="menu__card c-1">
+                  <div class="menu__card-1-image">
+                    <img src="/img/img：basil-salad__cmp.png" alt="" />
+                  </div>
+                  <div class="menu__card-top">
+                    <p class="p-1">Recommendation</p>
+                    <p class="p-2">店長おすすめ</p>
+                  </div>
+                  <div class="menu__card-bottom">
+                    <div class="menu__card-title">カッテージチーズと <br />バジルのサラダ</div>
+                    <div class="menu__card-text">
+                      <div class="menu__card-text-price"><span class="price__1">¥</span>1,100<span class="price__2">（税込）</span></div>
+                      <div class="menu__card-text-cal">305kcal P : 16.2g F : 12.5g C : 13.3g</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- menu__card-body -->
+              <div class="menu__card-body">
+                <div class="menu__card c-2">
+                  <div class="menu__card-2-image">
+                    <img src="/img/img：avocad-salad__cmp.png" alt="" />
+                  </div>
+                  <div class="menu__card-bottom">
+                    <div class="menu__card-title">アボガドサラダ</div>
+                    <div class="menu__card-text">
+                      <div class="menu__card-text-price"><span class="price__1">¥</span>980<span class="price__2">（税込）</span></div>
+                      <div class="menu__card-text-cal">425kcal P : 12.2g F : 15.3g C : 16.8g</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu__card c-3">
+                  <div class="menu__card-3-image">
+                    <img src="/img/img：chicken-salad__cmp.png" alt="" />
+                  </div>
+                  <div class="menu__card-bottom">
+                    <div class="menu__card-title">チキンサラダ</div>
+                    <div class="menu__card-text">
+                      <div class="menu__card-text-price"><span class="price__1">¥</span>980<span class="price__2">（税込）</span></div>
+                      <div class="menu__card-text-cal">455kcal P : 20.2g F : 11.3g C : 15.7g</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- menu__card-footer -->
+              <div class="menu__card-footer">
+                <div class="menu__card-4">
+                  <div class="menu__card-top">
+                    <p class="p-4">Instagram</p>
+                  </div>
+                  <div class="menu__card-bottom">
+                    <div class="menu__card-text-head">Instagramにはさらに詳しいメニュー内容などを載せています!</div>
+                    <div class="menu__card-image-content">
+                      <div class="menu__card-images">
+                        <div class="menu__card-image">
+                          <img src="/img/img01：Instagram__cmp.jpg" alt="" />
+                        </div>
+                        <div class="menu__card-image">
+                          <img src="/img/img02：Instagram__cmp.jpg" alt="" />
+                        </div>
+                        <div class="menu__card-image">
+                          <img src="/img/img03：Instagram__cmp.jpg" alt="" />
+                        </div>
+                        <div class="menu__card-image">
+                          <img src="/img/img04：Instagram__cmp.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menu__card-text-body">ID：tf_gardensalad</div>
+                    <div class="menu__card-link">
+                      <a href="#" class="menu__card-link-button">もっとメニューを見る</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- menu__cards -->
+            </div>
+            <!-- menu__container -->
+          </div>
+        </div>
+      </section>
+      <div class="parallax__2"></div>
+      <!-- parallax__2 -->
+      <section id="shop" class="shop">
+        <div class="section__title">
+          <div class="section__title-head">店舗情報</div>
+          <div class="section__title-body">Shop</div>
+        </div>
+        <div class="shop__head"></div>
+        <div class="shop__body inner__sp">
+          <div class="shop__textbox">
+            <div class="shop__name">
+              <span class="shop__name-before">TF</span>Garden Salad<span class="shop__name-after"><br class="sp__only" />（ ガーデンサラダ ）</span>
+            </div>
+            <div class="shop__address">
+              <p>〒150 - 0000 <br />東京都渋谷区表参道 10 - 20 - 20 <br />Tel. 090 - 1234 - 8899</p>
+            </div>
+            <div class="shop__about">
+              <dl>
+                <div class="shop__about-access">
+                  <dt>営業時間</dt>
+                  <dd>11 : 00 - 20 : 00</dd>
+                </div>
+              </dl>
+              <dl>
+                <div class="shop__about-access">
+                  <dt>定休日</dt>
+                  <dd>日曜</dd>
+                </div>
+              </dl>
+              <dl>
+                <div class="shop__about-access">
+                  <dt>アクセス</dt>
+                  <dd>
+                    東京メトロ千代田線「明治神宮前駅」<br class="pc__only" />
+                    5番出口から徒歩5分<br />
+                    JR「原宿駅」東口から徒歩10分
+                  </dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+          <div class="shop___image">
+            <img src="/img/img：店舗外観__cmp.jpg" alt="" />
+          </div>
+        </div>
+        <div class="shop__footer inner__sp">
+          <div class="shop__footer-content">
+            <div class="shop__footer-images">
+              <div class="shop__footer-image-1"></div>
+              <!-- <img src="/img/オープンテラス__cmp.jpg" alt="" />
+              <img src="/img/img：テイクアウト__cmp.jpg" alt="" /> -->
+              <div class="shop__footer-image-2"></div>
+            </div>
+            <div class="shop__footer-textbox">
+              <div class="shop__footer-title">Dear You.</div>
+              <div class="shop__footer-maintext">
+                <p>
+                  当店から徒歩5分ほどの場所に、オープンテラスの場所があります。お天気がいい<br class="pc__only" />日は、木漏れ日の中で風を感じながら食べるのもおすすめです。<br />
+                  テイクアウトもご用意できるので、ぜひご利用ください。
+                </p>
+              </div>
+              <div class="shop__footer-subtext">Have a nice day !!</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- shop -->
+      <section id="contact" class="contact inner__sp">
+        <div class="contact__container">
+          <div class="section__title">
+            <div class="section__title-head">お問い合わせ</div>
+            <div class="section__title-body">Contact</div>
+          </div>
+
+          <div class="contact__inner">
+            <div class="contact__top-text">ご質問などは、下記のフォームよりお問い合わせください。</div>
+            <div class="contact__form">
+              <form id="js-form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScqyevlMJ1BRHISJaplcIdvsEs6k-ktlGF8qdSfT_u_aFjiVQ/formResponse" method="POST" target="_blank">
+                <dl class="contact__controls">
+                  <div class="contact__control">
+                    <dt>
+                      <label for="your-name-1" class="name__label">お名前</label>
+                    </dt>
+                    <dd>
+                      <input type="text" id="your-name-1" name="entry.851298273" placeholder="例 )  山田　花子" />
+                    </dd>
+                  </div>
+                  <div class="contact__control">
+                    <dt>
+                      <label for="your-email" class="mail__label">メールアドレス</label>
+                    </dt>
+                    <dd>
+                      <input type="email" id="your-email" name="emailAddress" placeholder="例 )  hanako-yamada@example.com" />
+                    </dd>
+                  </div>
+                  <div class="contact__control">
+                    <dt>
+                      <label for="your-telnumber" class="tel__label">電話番号</label>
+                    </dt>
+                    <dd>
+                      <input type="tel" id="your-telnumber" name="entry.1904359290" placeholder="例 )  090-0000-0000" />
+                    </dd>
+                  </div>
+                  <!-- contact__textarea -->
+                  <div class="contact__control">
+                    <dt>
+                      <label for="your-text" class="textarea__label">お問い合わせ内容</label>
+                    </dt>
+                    <dd>
+                      <textarea class="form__textarea" id="your-text" name="entry.1763420191" placeholder="例 )  ご質問やお問い合わせ内容をご記入ください。"></textarea>
+                    </dd>
+                  </div>
+                </dl>
+                <!-- contact__controls -->
+                <div class="contact__checkbox">
+                  <div class="contact__privacy">
+                    <input class="form__check" id="privacyCheck" type="checkbox" name="entry.1093961805" value="プライバシーポリシーに同意する" />
+                    <span>
+                      <p class="js-open">プライバシーポリシー</p>
+                      に同意する。
+                    </span>
+                  </div>
+                </div>
+                <!-- <a href="" target="_blank">プライバシーポリシー<span>に同意する。</span></a> -->
+
+                <div class="contact__form-link">
+                  <button class="contact__form-submit" id="js-submit" type="submit" disabled>送信</button>
+                </div>
+              </form>
+              <!-- <iframe name="thanksIframe" style="display: none"></iframe> -->
+              <div id="js-success" class="contact__message">
+                <p>送信完了しました。ありがとうございました。</p>
+              </div>
+              <div id="js-error" class="contact__message -error">
+                <p>送信に失敗しました。ページを更新して再度送信してください。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- privacy__modal -->
+    <div class="modal">
+      <div class="modal__bg js-close"></div>
+      <div class="modal__container">
+        <div class="modal__title">
+          <div class="section__title">
+            <div class="section__title-head">プライバシポリシー</div>
+            <div class="section__title-body">Privacy Policy</div>
+          </div>
+        </div>
+        <div class="modal__bar js-close">
+          <span class="modal__span"></span>
+        </div>
+        <div class="modal__text">
+          <p class="bottom__space">＿＿＿＿＿＿＿＿（以下，「当社」といいます。）は，本ウェブサイト上で提供するサービス（以下,「本サービス」といいます。）における，ユーザーの個人情報の取扱いについて，以下のとおりプライバシーポリシー（以下，「本ポリシー」といいます。）を定めます。</p>
+          <p class="bottom__space">
+            第1条（個人情報）
+            「個人情報」とは，個人情報保護法にいう「個人情報」を指すものとし，生存する個人に関する情報であって，当該情報に含まれる氏名，生年月日，住所，電話番号，連絡先その他の記述等により特定の個人を識別できる情報及び容貌，指紋，声紋にかかるデータ，及び健康保険証の保険者番号などの当該情報単体から特定の個人を識別できる情報（個人識別情報）を指します。
+          </p>
+          <p>第2条（個人情報の収集方法） 当社は，ユーザーが利用登録をする際に氏名，生年月日，住所，電話番号，メールアドレス，銀行口座番号，クレジットカード番号，運転免許証番号などの個人情報をお尋ねすることがあります。また，ユーザーと提携先などとの間でなされたユーザーの個人情報を含む取引記録や決済に関する情報を,当社の提携先（情報提供元，広告</p>
+        </div>
+      </div>
+    </div>
+    <!-- to-top -->
+    <!-- <div class="to-top">
+      <a href="#"></a>
+    </div> -->
+    <!-- footer -->
+    <footer>
+      <div class="footer">
+        <!-- to-top -->
+        <div class="to-top">
+          <a href="#"></a>
+        </div>
+        <div class="footer__container">
+          <div class="footer__sns">
+            <div class="fab fa-twitter-square"></div>
+            <div class="fab fa-instagram"></div>
+            <div class="fab fa-tiktok"></div>
+          </div>
+
+          <div class="footer__nav">
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#shop">Shop</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer__icon">
+            <a href=""><img src="/img/logo_footer.svg" alt="" /></a>
+          </div>
+          <div class="footer__copyright">
+            <p>©︎ TF Garden Salad</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/af39f73c2b.js" crossorigin="anonymous"></script>
+    <!-- jQuery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <!-- Swiper -->
+    <!-- バージョン９以上だと上手な挙動ができないようです。バージョン８に下げると、大体の問題が解決します。 -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script> -->
+    <!-- <script src="js/swiper-bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- jquery & iScroll -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script> -->
+    <!-- drawer.js -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script> -->
+    <!-- WOW -->
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <!-- jQuery file -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
