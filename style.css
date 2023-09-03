@@ -575,7 +575,7 @@ img {
  parallax__1
 =================================== */
 .parallax__1 {
-  background: url(/img/parallax__1-salad__cmt.jpg) no-repeat center center/cover;
+  background: url(https://tuvo-1.github.io/portfolio.github.io/parallax__1-salad__cmt.jpg) no-repeat center center/cover;
   max-width: 1440px;
   height: 450px;
   background-attachment: fixed;
@@ -583,7 +583,7 @@ img {
 }
 @media (max-width:767px) {
   .parallax__1 {
-    background: url(/img/parallax__1-salad__sp-cmp.png) no-repeat center center/cover;
+    background: url(https://tuvo-1.github.io/portfolio.github.io/parallax__1-salad__sp-cmp.png) no-repeat center center/cover;
     position: -webkit-sticky;
     position: sticky;
     z-index: -1;
@@ -598,14 +598,14 @@ img {
  parallax__2
 =================================== */
 .parallax__2 {
-  background: url(/img/parallax__2-cafe__cmt.jpg) no-repeat center center/cover;
+  background: url(https://tuvo-1.github.io/portfolio.github.io/parallax__2-cafe__cmt.jpg) no-repeat center center/cover;
   max-width: 1440px;
   height: 450px;
   background-attachment: fixed;
 }
 @media (max-width:767px) {
   .parallax__2 {
-    background: url(/img/parallax__2-cafe__sp-cmp.png) no-repeat center center/cover;
+    background: url(https://tuvo-1.github.io/portfolio.github.io/parallax__2-cafe__sp-cmp.png) no-repeat center center/cover;
     position: -webkit-sticky;
     position: sticky;
     z-index: -1;
@@ -1131,7 +1131,7 @@ img {
 .menu__card-link a::after {
   position: absolute;
   content: "";
-  background: url(/img/button__link-1.svg) no-repeat;
+  background: url(https://tuvo-1.github.io/portfolio.github.io/button__link-1.svg) no-repeat;
   width: 16px;
   height: 16px;
   top: 50%;
@@ -1148,7 +1148,7 @@ img {
   color: #ffffff;
 }
 .menu__card-link a:hover::after {
-  background: url(/img/button__link-2.svg) no-repeat;
+  background: url(https://tuvo-1.github.io/portfolio.github.io/button__link-2.svg) no-repeat;
 }
 
 /* ===================================
@@ -1168,7 +1168,7 @@ img {
 
 /* shop__head */
 .shop__head {
-  background: url(/img/Goggle__map-cmp.jpg) no-repeat center center/cover;
+  background: url(https://tuvo-1.github.io/portfolio.github.io/Goggle__map-cmp.jpg) no-repeat center center/cover;
   max-width: 1440px;
   height: 465px;
   margin-top: 80px;
@@ -1328,7 +1328,7 @@ dl:not(:first-child) {
 .shop__footer-content::before {
   position: absolute;
   content: "";
-  background: url(/img/img：stamp-cmp.png);
+  background: url(https://tuvo-1.github.io/portfolio.github.io/img：stamp-cmp.png);
   width: 280px;
   height: 240px;
   top: -80px;
@@ -1356,7 +1356,7 @@ dl:not(:first-child) {
   }
 }
 .shop__footer-images .shop__footer-image-1 {
-  background: url(/img/shop__1__cmp.png);
+  background: url(https://tuvo-1.github.io/portfolio.github.io/shop__1__cmp.png);
   width: 629px;
   height: 430px;
   /* bg スタイル */
@@ -1366,7 +1366,7 @@ dl:not(:first-child) {
 }
 @media (max-width:767px) {
   .shop__footer-images .shop__footer-image-1 {
-    background: url(/img/shop__3__cmp.png);
+    background: url(https://tuvo-1.github.io/portfolio.github.io/shop__3__cmp.png);
     width: 323px;
     height: 282px;
     margin: auto;
@@ -1377,7 +1377,7 @@ dl:not(:first-child) {
   }
 }
 .shop__footer-images .shop__footer-image-2 {
-  background: url(/img/shop__2__cmp.png);
+  background: url(https://tuvo-1.github.io/portfolio.github.io/shop__2__cmp.png);
   width: 449px;
   height: 430px;
   /* bg スタイル */
@@ -1387,7 +1387,7 @@ dl:not(:first-child) {
 }
 @media (max-width:767px) {
   .shop__footer-images .shop__footer-image-2 {
-    background: url(/img/shop__4__cmp.png);
+    background: url(https://tuvo-1.github.io/portfolio.github.io/shop__4__cmp.png);
     width: 323px;
     height: 209px;
     margin: auto;
@@ -1484,7 +1484,7 @@ input {
 
 .contact {
   color: #333333;
-  background: url(/img/img：野菜__cmp.jpg);
+  background: url(https://tuvo-1.github.io/portfolio.github.io/img：野菜__cmp.jpg);
   padding-top: 130px;
   padding-bottom: 130px;
 }
@@ -1879,7 +1879,7 @@ textarea:hover {
 .to-top a::before {
   position: absolute;
   content: "";
-  background: url(/img/Polygon\ 2.svg) no-repeat;
+  background: url(https://tuvo-1.github.io/portfolio.github.io/Polygon\ 2.svg) no-repeat;
   width: 49px;
   height: 49px;
   /* bg スタイル */
